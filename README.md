@@ -1,20 +1,20 @@
-├── pages/
-    ├── css/
-    │ ├── login.css
-    │ ├── signup.css
-    │ ├── mainpage.css
-    │ ├── lol.css
-    │ ├── teamfight.css
-    │ ├── valo.css
-    │ └── for-future-features.css
-    ├── js/
-    │ ├── login.js
-    │ ├── signup.js
-    │ ├── mainpage.js
-    │ ├── lol.js
-    │ ├── teamfight.js
-    │ ├── valo.js
-    │ └── for-future-features.js
+├── pages/  
+    ├── css/  
+    │ ├── login.css  
+    │ ├── signup.css  
+    │ ├── mainpage.css  
+    │ ├── lol.css  
+    │ ├── teamfight.css  
+    │ ├── valo.css  
+    │ └── for-future-features.css  
+    ├── js/  
+    │ ├── login.js  
+    │ ├── signup.js  
+    │ ├── mainpage.js  
+    │ ├── lol.js  
+    │ ├── teamfight.js  
+    │ ├── valo.js  
+    │ └── for-future-features.js  
 
 
 # 🎮 Riot Games Website Clone — Vanilla HTML, CSS & JS
