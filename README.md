@@ -64,7 +64,7 @@
 <img src="pages/images/signin.png" alt="Main Page" style="border-radius: 10px; width: 100%; max-width: 600px;" />
 
 <h3>🏠 Главная страница</h3>
-<img src="pages/images/homepage.png" alt="Main Page" style="border-radius: 10px; width: 100%; max-width: 600px;" />
+<img src="pages/images/homepage.png" alt="Main Page" style="border:1px solid black; border-radius: 10px; width: 100%; max-width: 600px;" />
 
 <h3>🎮 League of Legends</h3>
 <img src="pages/images/lol.png" alt="Main Page" style="border-radius: 10px; width: 100%; max-width: 600px;" />
