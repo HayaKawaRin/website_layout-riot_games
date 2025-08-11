@@ -54,6 +54,25 @@
 
 ---
 
+## 🖼️ Примеры страниц
+
+### 🔐 Страница входа
+![Login Page](pages/images/login.png)
+
+### 🔐 Страница регистрации
+![Login Page](pages/images/login.png)
+
+### 🏠 Главная страница
+![Main Page](pages/images/mainpage.png)
+
+### 🎮 League of Legends
+![LoL Page](pages/images/lol.png)
+
+### 🎮 Statistics
+![LoL Statistics Page](pages/images/stats.png)
+
+---
+
 ## 🎨 Стили и скрипты
 
 Каждая HTML-страница имеет свои собственные CSS и JS-файлы с тем же названием:
