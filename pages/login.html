@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Riot Games</title>
+    <link rel="icon" type="image/png" href="css/img/logo-riot.png">
+    <link rel="stylesheet" href="css/login.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <script src="scripts/login.js"></script>
+</head>
+<body>
+    <div class="singin">
+        <div class="frame">
+            <div class="frame-text"><h1>Sign in</h1></div>
+            <div class="frame-signin">
+                <div class="signin-username-password">
+                    <form>
+                        <label for="username" class="form-int">Username</label><br>
+                        <input type="text" id="int-style" name="username"><br>
+                        <label for="password" class="form-int">Password</label><span class="he">----------------------------------------------------</span><button id="togglePassword" onclick="myFunction()" type="button">Hide</button><br>
+                        <input type="password" name="password" id="password">
+                      </form>
+                </div>
+                <div class="signin-smedia">
+                    <button class="smedia-button"><img src="css/img/facebook.png" alt=""></button>
+                    <button class="smedia-button"><img src="css/img/google-logo.png" alt=""></button>
+                    <button class="smedia-button"><img src="css/img/apple logo.png" alt=""></button>
+                </div>
+            </div>
+            <div class="frame-checkbox"><input type="checkbox" class="checkbox"/><span class="checkbox-text">Stay signed in</span></div>
+            <div class="frame-subframe">
+                <div class="subframe-btn"><a href="lol.html" class="subframe-btn-link">Sign in</a></div>
+                <div class="subframe-bottom">
+                    <p>Don’t have an account? <a href="signup.html" class="subframe-bottom-links">Sign up</a></p>
+                    <p>You can’t sign in? <a href="for-future-features.html" class="subframe-bottom-links">Restart your password</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

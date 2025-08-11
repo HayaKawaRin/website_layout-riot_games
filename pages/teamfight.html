@@ -1,0 +1,164 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamfight Tactics</title>
+    <link rel="icon" type="image/png" href="css/img/logo-riot.png">
+    <link rel="stylesheet" href="css/teamfight.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <script src="scripts/valo.js"></script>
+</head>
+<body>
+
+  <header>
+            <div class="burger-menu">
+                <img src="css/img/burger-menu.png" alt="Burger Menu Icon" id="burgerIcon">
+            </div>
+            <div class="menu-overlay" id="menuOverlay"></div>
+            <div class="menu" id="menu">
+                <a href="mainpage.html"><img src="css/img/home.png" alt="1" class="li-img">Home</a>
+                <a href="lol.html"><img src="css/img/lol.png" alt="1" class="li-img">League of Legends</a>
+                <a href="#"><img src="css/img/lr.png" alt="1" class="li-img">Legends of Runeterra</a>
+                <a href="#"><img src="css/img/lw.png" alt="1" class="li-img">LOL: Wild Rift</a>
+                <a href="valo.html"><img src="css/img/valo.png" alt="1" class="li-img">Valorant</a>
+            </div>
+
+            <div class="profile">
+              <div class="profile-frame">
+                <a href="login.html"><img src="css/img/user.png" alt="#"></a>
+              </div>
+            </div>
+        </header>
+    <div class="container">
+
+          <div class="logo">
+            <div class="logo-frame">
+              <div class="frame-text">
+                <button>112.5H</button>
+              </div>
+              <div class="frame-img"><img src="css/img/tft.png" alt="League od Legends"></div>
+            </div>
+          </div>
+
+        <div class="play-btn">
+            <div class="btn-frame-1">
+              <dis class="frame-1-sub">
+                <div class="sub-icon"><img src="css/img/sub-btn.png" alt=">"></div>
+                <div class="sub-text">PLAY</div>
+              </dis>
+            </div>
+            <div class="btn-frame-2">
+              <img src="css/img/sub-btn-2.png" alt="">
+            </div>
+        </div>
+
+        <div class="top-content">
+          <div class="top-content-conteiner">
+            <div class="inter-div" id="inter-div-1">
+            <h3>WEEKLY ACTIVITY</h3>
+            <div class="activity-content">
+              <div class="profile-image">
+                <img src="css/img/dfff.jpg" alt="Profile">
+              </div>
+              <div class="activity-bars">
+                <div class="activity-bar">
+                  <div class="bar-3"><div class="fill" style="height: 90%;"></div></div>
+                  <div class="day-label">Mo</div>
+                </div>
+                <div class="activity-bar">
+                  <div class="bar-3"><div class="fill" style="height: 0%;"></div></div>
+                  <div class="day-label">Tu</div>
+                </div>
+                <div class="activity-bar">
+                  <div class="bar-3"><div class="fill" style="height: 30%;"></div></div>
+                  <div class="day-label">We</div>
+                </div>
+                <div class="activity-bar">
+                  <div class="bar-3"><div class="fill" style="height: 0%;"></div></div>
+                  <div class="day-label">Th</div>
+                </div>
+                <div class="activity-bar">
+                  <div class="bar-3"><div class="fill" style="height: 0%;"></div></div>
+                  <div class="day-label">Fr</div>
+                </div>
+                <div class="activity-bar">
+                  <div class="bar-3"><div class="fill" style="height: 50%;"></div></div>
+                  <div class="day-label">Sa</div>
+                </div>
+                <div class="activity-bar">
+                  <div class="bar-3"><div class="fill" style="height: 90%;"></div></div>
+                  <div class="day-label">Su</div>
+                </div>
+              </div>
+            </div>
+            <div class="view-more-activity">
+              <a href="#" class="view-more">View Full Activity</a>
+            </div>
+            </div>
+          </div>
+          <div class="top-content-conteiner">
+            <div class="inter-div">
+              <div class="stats-title">YOUR STATS</div>
+                <div class="stats-content">
+                  <div class="stat">
+                    <div class="value">9.7%</div>
+                    <div class="label">TOP 1</div>
+                  </div>
+                  <div class="stat">
+                    <div class="value">32.2%</div>
+                    <div class="label">TOP 4</div>
+                </div>
+              </div>
+              <div class="view-more-activity">
+                <a href="#" class="view-stats">View Stats</a>
+              </div>
+            </div>  
+          </div>
+          <div class="top-content-conteiner">
+            <div class="inter-div">
+                <div class="stats-title">CURRENT SEASON RANK</div>
+                <div class="stats-content">
+                  <div class="stat">
+                    <div class="value"><img src="css/img/gold2.png" alt="" class="value-img1"></div>
+                  </div>
+                  <div class="stat">
+                    <div class="value">GOLD I</div>
+                    <div class="label">89 lp</div>
+                </div>
+              </div>
+              <div class="view-more-activity-2">
+                <a href="#" class="view-stats">RANKED GAME</a>
+              </div>
+              </div>
+          </div>
+        
+        </div>
+
+    </div>
+
+    <script>
+        const burgerIcon = document.getElementById("burgerIcon");
+        const menu = document.getElementById("menu");
+        const menuOverlay = document.getElementById("menuOverlay");
+
+        burgerIcon.addEventListener("click", () => {
+            menu.style.left = "0";
+            menuOverlay.style.display = "block";
+        });
+
+        menuOverlay.addEventListener("click", () => {
+            menu.style.left = "-350px";
+            menuOverlay.style.display = "none";
+        });
+
+        document.querySelector('.view-button').addEventListener('click', () => {
+    alert('Full role rate functionality coming soon!');
+    });
+    </script>
+</body>
+</html>
