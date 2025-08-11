@@ -56,21 +56,21 @@
 
 ## 🖼️ Примеры страниц
 
-### 🔐 Страница входа
-![Login Page](pages/images/login.png)
 
-### 🔐 Страница регистрации
-![Login Page](pages/images/login.png)
+<h3>🔐 Страница входа</h3>
+<img src="pages/images/login.png" alt="Main Page" style="border-radius: 10px; width: 100%; max-width: 600px;" />
 
-### 🏠 Главная страница
-![Main Page](pages/images/mainpage.png)
+<h3>🔐 Страница регистрации</h3>
+<img src="pages/images/signin.png" alt="Main Page" style="border-radius: 10px; width: 100%; max-width: 600px;" />
 
-### 🎮 League of Legends
-![LoL Page](pages/images/lol.png)
+<h3>🏠 Главная страница</h3>
+<img src="pages/images/homepage.png" alt="Main Page" style="border-radius: 10px; width: 100%; max-width: 600px;" />
 
-### 🎮 Statistics
-![LoL Statistics Page](pages/images/stats.png)
+<h3>🎮 League of Legends</h3>
+<img src="pages/images/lol.png" alt="Main Page" style="border-radius: 10px; width: 100%; max-width: 600px;" />
 
+<h3>🎮 Statistics</h3>
+<img src="pages/images/stats.png" alt="Main Page" style="border-radius: 10px; width: 100%; max-width: 600px;" />
 ---
 
 ## 🎨 Стили и скрипты
